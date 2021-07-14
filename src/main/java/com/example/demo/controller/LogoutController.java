@@ -26,6 +26,7 @@ public class LogoutController {
                 cookie.setPath("/");//很關鍵，設定成跟寫入cookies一樣的，全路徑共享Cookie
                 response.addCookie(cookie);//重新響應
                 System.out.println("登出 cookie刪除");
+                //安安安安今天好熱
             }
         }
 		
